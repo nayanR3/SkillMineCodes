@@ -326,5 +326,67 @@ namespace SkillMineCodes.Array
 
 
     /*Q6.to display pattern using 2d array.*/
+    class MatrixP1
+    {
+        static void Main(string[] args)
+        {
+            System.Console.WriteLine("Enter row & column");
+            int n = int.Parse(Console.ReadLine());
+            int m = int.Parse(Console.ReadLine());
 
+            int[,] mat = new int[n, m];
+
+            // taking input from user
+            System.Console.WriteLine();
+            System.Console.WriteLine("Enter matrix values");
+            for (int i = 0; i < mat.GetLength(0); i++)
+            {
+                for (int j = 0; j < mat.GetLength(1); j++)
+                {
+                    mat[i, j] = int.Parse(Console.ReadLine());
+                }
+            }
+
+            // display Matrix
+            System.Console.WriteLine();
+            System.Console.WriteLine("Matrix");
+            for (int i = 0; i < mat.GetLength(0); i++)
+            {
+                for (int j = 0; j < mat.GetLength(1); j++)
+                {
+                    System.Console.Write(mat[i, j] + " ");
+                }
+                System.Console.WriteLine();
+            }
+            MatrixP1 p = new MatrixP1();
+            p.fun(mat);
+        }
+
+        public void fun(int[,] mat)
+        {
+            System.Console.WriteLine();
+            System.Console.WriteLine("Pattern");
+            for (int i = 0; i < mat.GetLength(0); i++)
+            {
+                for (int j = 0; j < mat.GetLength(1); j++)
+                {
+                    if (
+                        i == 0 ||
+                        j == 0 ||
+                        i == mat.GetUpperBound(0) ||
+                        j == mat.GetUpperBound(1)
+                    )
+                    {
+                        System.Console.Write(mat[i, j]);
+                    }
+                    else
+                    {
+                        System.Console.Write(" ");
+                    }
+                }
+                System.Console.WriteLine();
+            }
+        }
+
+    }
 }
