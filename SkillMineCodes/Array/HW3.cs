@@ -325,6 +325,10 @@ namespace SkillMineCodes.Array
     }
 
 
+    // 1 2 3
+    // 4   6
+    // 7 8 9
+
     /*Q6.to display pattern using 2d array.*/
     class MatrixP1
     {
@@ -358,6 +362,7 @@ namespace SkillMineCodes.Array
                 }
                 System.Console.WriteLine();
             }
+
             MatrixP1 p = new MatrixP1();
             p.fun(mat);
         }
@@ -377,16 +382,22 @@ namespace SkillMineCodes.Array
                         j == mat.GetUpperBound(1)
                     )
                     {
-                        System.Console.Write(mat[i, j]);
+                        System.Console.Write(mat[i, j]
+                            +" ");
                     }
                     else
                     {
-                        System.Console.Write(" ");
+                        System.Console.Write("  ");
                     }
                 }
                 System.Console.WriteLine();
             }
         }
+    }
+
+
+    class MatrixP2
+    {
 
     }
 }
