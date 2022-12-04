@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace SkillMineCodes.Array
 {
-    /*Q1.WAP to sort character type of array.*/
+    /*Q1.WAP to sort character type of array. */
     class SortCharArr
     {
         static void Main(string[] args)
