@@ -106,7 +106,7 @@ namespace SkillMineCodes.Array
     /*Q3.WAP to merge 2 array into single array but third array doesn't content duplicate elements.*/
     class MergeArr
     {
-            static void Main(string[] args)
+        static void Main(string[] args)
             {
             Console.WriteLine("Size of array");
                 int n = int.Parse(Console.ReadLine());

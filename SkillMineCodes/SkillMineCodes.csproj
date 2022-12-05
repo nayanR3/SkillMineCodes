@@ -49,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SkillMineCodes.AccessModifiers.Student1Info</StartupObject>
+    <StartupObject>SkillMineCodes.Assignments.ArrayQ10</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -69,6 +69,7 @@
     <Compile Include="Array\HW2.cs" />
     <Compile Include="Array\HW3.cs" />
     <Compile Include="Array\Toggle.cs" />
+    <Compile Include="Assignments\ArrayAssignment.cs" />
     <Compile Include="Conditional\HW.cs" />
     <Compile Include="Do While\HW.cs" />
     <Compile Include="Loop\HW.cs" />
