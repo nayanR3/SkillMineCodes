@@ -72,17 +72,6 @@ namespace SkillMineCodes.OOPS
 
         }
 
-
-        static void Main(string[] args)
-        {
-            Book b = new Book();
-            b.Id= 21;
-            b.Name = "Harry Potter";
-            b.Author = "J. K. Rowling";
-            b.Price= 9999;
-
-            Console.WriteLine($"Id {b.Id}, \nName : {b.Name}, \nAuthor : {b.Author}, \nPrice : {b.Price}");
-        }
     }
 
 }

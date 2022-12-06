@@ -41,12 +41,5 @@ namespace SkillMineCodes.OOPS
             return $"Name : {name},\nAge : {age}, \nAddress : {address}, \nTotal : {total}, \nPercentage : {percentage}";
         }
 
-        static void Main(string[] args)
-        {
-            Student s = new Student("Nayan", 24, "Dapoli", 75, 80, 85, 90);
-            int t = s.CalculateTotal();
-            s.CalculatePercentage(t);
-            Console.WriteLine(s);
-        }
     }
 }
