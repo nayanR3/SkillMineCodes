@@ -1,0 +1,46 @@
+﻿Written Test :
+    1. Check if given number is Armstrong or not
+    2. Swap values of two integer variables without using third variable.
+    3. Count number of digits in any number.
+    4. Accept a number from user and Create table of a number.
+    5. Find first 10 even numbers.
+
+
+
+#######################################################################################
+
+
+/*Q2. Swap values of two integer variables without using third variable.*/
+
+    public class DecQ2
+    {
+        public int A { get; set; }
+        public int B { get; set; }
+
+        public void Cal( )
+        {
+            A = A + B;
+            B = A - B;
+            A = A - B;
+        }
+        public override string ToString()
+        {
+            return $"A= {A} and B= {B}";
+        }
+    }
+
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            DecQ2 o = new DecQ2();
+            o.A = 10;
+            o.B = 20;
+            Console.WriteLine("Before swap");
+            Console.WriteLine(o);
+            o.Cal();
+            Console.WriteLine("After swap");
+            Console.WriteLine(o);
+        }
+    }
+

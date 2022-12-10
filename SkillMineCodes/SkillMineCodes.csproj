@@ -49,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SkillMineCodes.Assignments.ArrayQ15</StartupObject>
+    <StartupObject>SkillMineCodes.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -62,7 +62,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccessModifiers\HW.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="OOPS\Book.cs" />
+    <Compile Include="OOPS\HW.cs" />
     <Compile Include="Array\EvenNo.cs" />
     <Compile Include="Array\FindMax.cs" />
     <Compile Include="Array\HW.cs" />
@@ -74,8 +76,12 @@
     <Compile Include="Do While\HW.cs" />
     <Compile Include="Loop\HW.cs" />
     <Compile Include="Nested Loop\HW.cs" />
+    <Compile Include="OOPS\RefOutParam.cs" />
+    <Compile Include="OOPS\Student.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Array\SeperateEvenOdd.cs" />
+    <Compile Include="WrittenTest\Dec10\Questions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -92,6 +98,8 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="WrittenTest\Dec10\Questions.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

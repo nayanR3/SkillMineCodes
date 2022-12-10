@@ -15,63 +15,14 @@ namespace SkillMineCodes.OOPS
         private int price;
 
 
-        public int Id
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Author { get; set; }
+        public int Price { get; set; }
+
+        public override string ToString()
         {
-
-            get
-            {
-                return id;
-            }
-
-            set
-            {
-                id = value;
-            }
-
+            return $"Id : {Id}, \nName : {Name}, \nAuthor : {Author}, \nPrice : {Price}";
         }
-        public String Name
-        {
-
-            get
-            {
-                return name;
-            }
-
-            set
-            {
-                name = value;
-            }
-
-        }
-        public String Author
-        {
-
-            get
-            {
-                return author;
-            }
-
-            set
-            {
-                author = value;
-            }
-
-        }
-        public int Price
-        {
-
-            get
-            {
-                return price;
-            }
-
-            set
-            {
-                price = value;
-            }
-
-        }
-
     }
-
 }
