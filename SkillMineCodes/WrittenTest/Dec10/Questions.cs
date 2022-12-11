@@ -47,18 +47,22 @@ namespace SkillMineCodes.WrittenTest.Dec10
     /*Q2. Swap values of two integer variables without using third variable.*/
     public class DecQ2
     {
-        public int A { get; set; }
-        public int B { get; set; }
+        private int a, b;
+        public DecQ2(int a, int b)
+        {
+            this.a = a;
+            this.b = b;
+        }
 
         public void Cal()
         {
-            A = A + B;
-            B = A - B;
-            A = A - B;
+            a = a + b;
+            b = a - b;
+            a = a - b;
         }
         public override string ToString()
         {
-            return $"A= {A} and B= {B}";
+            return $"A= {a} and B= {b}";
         }
 
     }

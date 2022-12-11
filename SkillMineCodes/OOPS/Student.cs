@@ -14,7 +14,7 @@ namespace SkillMineCodes.OOPS
         private string address;
         private int phy, chem, maths, bio, total, percentage;
 
-        public Student(string name, int age, string address, int phy, int chem, int maths, int bio )
+        public Student(string name, int age, string address, int phy, int chem, int maths, int bio)
         {
             this.name = name;
             this.age = age;
@@ -43,3 +43,14 @@ namespace SkillMineCodes.OOPS
 
     }
 }
+
+/*public class Program
+ {
+     static void Main(string[] args)
+     {
+         Student s = new Student("Nayan", 24, "Dapoli", 75, 80, 85, 90);
+         int t = s.CalculateTotal();
+         s.CalculatePercentage(t);
+         Console.WriteLine(s);
+     }
+ }*/
