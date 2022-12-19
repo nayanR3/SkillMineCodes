@@ -49,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SkillMineCodes.HW.Dec14.CharToggle</StartupObject>
+    <StartupObject>SkillMineCodes.Exceptions.Demo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -63,9 +63,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array\ArrayMethod.cs" />
+    <Compile Include="Collections\Demo.cs" />
+    <Compile Include="Collections\GenericsDemo.cs" />
+    <Compile Include="Collections\IComparableDemo.cs" />
+    <Compile Include="Collections\IComparableMicro.cs" />
+    <Compile Include="Collections\IComparerDemo.cs" />
+    <Compile Include="Exceptions\Demo.cs" />
+    <Compile Include="Exceptions\MarksException.cs" />
+    <Compile Include="Exceptions\NameException.cs" />
+    <Compile Include="Exceptions\Stud.cs" />
+    <Compile Include="Exceptions\Student.cs" />
     <Compile Include="HW\Dec14\CharacterCount.cs" />
     <Compile Include="HW\Dec14\CharToggle.cs" />
     <Compile Include="HW\Dec14\Palindrome.cs" />
+    <Compile Include="HW\Dec15\GenericsHashTableDemo.cs" />
+    <Compile Include="HW\Dec15\GenericsListDemo.cs" />
+    <Compile Include="HW\Dec15\GenericsQueueDemo.cs" />
+    <Compile Include="HW\Dec15\GenericsSortedListDemo.cs" />
+    <Compile Include="HW\Dec15\GenericsStackDemo.cs" />
     <Compile Include="OOPS\AbstractDemo.cs" />
     <Compile Include="OOPS\ArrayCostProp.cs" />
     <Compile Include="OOPS\Employee.cs" />
@@ -108,5 +123,6 @@
     <Content Include="stuff.txt" />
     <Content Include="WrittenTest\Dec10\Questions.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

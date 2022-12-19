@@ -49,7 +49,7 @@ namespace SkillMineCodes.HW.Dec15
 
 
 
-            /*            l1.Append(l1.Max());
+            /*           l1.Append(l1.Max());
                         Console.Write("\nAppend max element --> ");
                         foreach (int i in l1)
                         {
@@ -142,10 +142,6 @@ namespace SkillMineCodes.HW.Dec15
                 Console.Write(i + " ");
             }
             Console.WriteLine();
-
-
-
-
         }
     }
 }

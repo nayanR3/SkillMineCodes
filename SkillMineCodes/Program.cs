@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Text;
 
 namespace SkillMineCodes
@@ -7,67 +8,30 @@ namespace SkillMineCodes
     {
         public static void Main(string[] args)
         {
-            int[] arr = { 21, 11, 98, 03, 08, 20, 34, 6 };
-            Console.WriteLine("Original Array");
-            foreach(int i in arr)
-            {
-                Console.Write(i+" ");
-            }
-            fun(arr);
-        }
+            ArrayList al= new ArrayList();
+            al.Add(1);
+            al.Add(2);
+            al.Add(3);
 
-        /*public static void fun(int[] arr)
-        {
-            int middle = arr.Length / 2;
-            //Console.WriteLine(n);
-            int[] arr1 = new int[n];
-            int[] arr2 = new int[n];
-
-
-            for (int i = middle; i < arr.Length; i++)
-            {
-                arr1[i- middle] = arr[i];
-            }
-
-            for (int i = 0; i < middle; i++)
-            {
-                arr2[i] = arr[i];
-            }
-
-            Console.WriteLine();
-            Console.WriteLine("\nHalf reverse array");
-            foreach (int i in arr1)
-            {
-                Console.Write(i + " ");
-            }
-            foreach (int i in arr2)
-            {
-                Console.Write(i + " ");
-            }
-            Console.WriteLine();
-        }*/
-
-
-
-        public static void fun(int[] arr)
-        {
-            Console.WriteLine();
-            int middle = arr.Length/2;
-            Console.WriteLine("Half size "+middle);
-
-            for (int i = 0; i < middle; i++)
-            {
-                int temp = arr[i];
-                arr[i] = arr[i + middle];
-                arr[i + middle] = temp;
-            }
-
-            foreach (int i in arr)
+            foreach(var i in al)
             {
                 Console.Write(i+" ");
             }
             Console.WriteLine();
-        }
+
+
+            Hashtable ht = new Hashtable();
+            ht.Add(1,1);
+            ht.Add(2,2);
+            ht.Add(3,3);
+
+            foreach (DictionaryEntry i in ht)
+            {
+                Console.Write(i.Key + " "+i.Value);
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+        }        
     }
 }
 
