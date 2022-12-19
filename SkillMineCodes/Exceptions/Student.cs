@@ -17,6 +17,7 @@ namespace SkillMineCodes.Exceptions
                 this.name = name;
             }
         }
+
         public override string ToString()
         {
             return $"{this.name}";

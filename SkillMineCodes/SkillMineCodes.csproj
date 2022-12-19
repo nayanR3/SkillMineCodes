@@ -10,7 +10,7 @@
     <AssemblyName>SkillMineCodes</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -49,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SkillMineCodes.Exceptions.Demo</StartupObject>
+    <StartupObject>SkillMineCodes.HW.Product</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -83,6 +83,7 @@
     <Compile Include="HW\Dec15\GenericsStackDemo.cs" />
     <Compile Include="OOPS\AbstractDemo.cs" />
     <Compile Include="OOPS\ArrayCostProp.cs" />
+    <Compile Include="HW\Codes.cs" />
     <Compile Include="OOPS\Employee.cs" />
     <Compile Include="OOPS\Book.cs" />
     <Compile Include="OOPS\HW.cs" />
