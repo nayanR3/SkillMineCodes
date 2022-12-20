@@ -25,11 +25,11 @@ namespace SkillMineCodes.Questions
             foreach(Grossery i in list)
             {
                 int v = g.cal(i.Price, i.Quantity);
-                Console.WriteLine(v + " for "+ i.Product);
+                Console.WriteLine(v + " for "+ i.Product+ " and 10% discount price "+ g.DisPrice(v));
                 total += v;
             }
 
-            Console.WriteLine("\n\nTotal required Money "+total);
+            Console.WriteLine("\nTotal required Money "+total);
             Console.WriteLine("apply 10% discount on total money "+ g.DisPrice(total));
         }
     }

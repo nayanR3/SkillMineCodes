@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 
-namespace SkillMineCodes.Array
+namespace SkillMineCodes.ArrayQuestions
 {
     public class ArrayMethod
     {
