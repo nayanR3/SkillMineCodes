@@ -24,7 +24,7 @@ namespace SkillMineCodes.Questions
 
         public override string ToString()
         {
-            return $"\nBook Name - {name} \nBook Author - {author} \nBook Price - {price}";
+            return $"Book Name - {name} \nBook Author - {author} \nBook Price - {price}";
         }
 
     }
@@ -37,7 +37,7 @@ namespace SkillMineCodes.Questions
             Console.WriteLine("Befor Discount");
             Console.WriteLine(b);
             b.DisPrice();
-            Console.WriteLine("After Discount");
+            Console.WriteLine("\nAfter Discount");
             Console.WriteLine(b);
         }
     }
