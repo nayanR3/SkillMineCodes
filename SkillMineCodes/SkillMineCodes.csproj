@@ -49,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SkillMineCodes.AccessModifiers.AccInfo</StartupObject>
+    <StartupObject>SkillMineCodes.Quetions.program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -63,27 +63,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array\ArrayMethod.cs" />
-    <Compile Include="Collections\Demo.cs" />
-    <Compile Include="Collections\GenericsDemo.cs" />
-    <Compile Include="Collections\IComparableDemo.cs" />
-    <Compile Include="Collections\IComparableMicro.cs" />
-    <Compile Include="Collections\IComparerDemo.cs" />
     <Compile Include="Exceptions\Demo.cs" />
     <Compile Include="Exceptions\MarksException.cs" />
     <Compile Include="Exceptions\NameException.cs" />
     <Compile Include="Exceptions\Stud.cs" />
     <Compile Include="Exceptions\Student.cs" />
-    <Compile Include="HW\Dec14\CharacterCount.cs" />
-    <Compile Include="HW\Dec14\CharToggle.cs" />
-    <Compile Include="HW\Dec14\Palindrome.cs" />
-    <Compile Include="HW\Dec15\GenericsHashTableDemo.cs" />
-    <Compile Include="HW\Dec15\GenericsListDemo.cs" />
-    <Compile Include="HW\Dec15\GenericsQueueDemo.cs" />
-    <Compile Include="HW\Dec15\GenericsSortedListDemo.cs" />
-    <Compile Include="HW\Dec15\GenericsStackDemo.cs" />
+    <Compile Include="Questions\Book.cs" />
+    <Compile Include="Questions\Dec14\CharacterCount.cs" />
+    <Compile Include="Questions\Dec14\CharToggle.cs" />
+    <Compile Include="Questions\Dec14\Palindrome.cs" />
+    <Compile Include="Questions\Dec15\GenericsHashTableDemo.cs" />
+    <Compile Include="Questions\Dec15\GenericsListDemo.cs" />
+    <Compile Include="Questions\Dec15\GenericsQueueDemo.cs" />
+    <Compile Include="Questions\Dec15\GenericsSortedListDemo.cs" />
+    <Compile Include="Questions\Dec15\GenericsStackDemo.cs" />
     <Compile Include="OOPS\AbstractDemo.cs" />
     <Compile Include="OOPS\ArrayCostProp.cs" />
-    <Compile Include="HW\Codes.cs" />
+    <Compile Include="Questions\Product.cs" />
     <Compile Include="OOPS\Employee.cs" />
     <Compile Include="OOPS\Book.cs" />
     <Compile Include="OOPS\HW.cs" />

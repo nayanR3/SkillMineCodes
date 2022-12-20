@@ -8,7 +8,7 @@ namespace SkillMineCodes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(21);
+            Console.WriteLine("21");
         }
     }
 
