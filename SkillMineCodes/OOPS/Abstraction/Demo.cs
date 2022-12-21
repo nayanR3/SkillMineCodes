@@ -4,9 +4,6 @@ namespace SkillMineCodes.OOPS.Abstraction
 {
     public abstract class AbstractDemo1
     {
-        public AbstractDemo1()
-        {
-        }
         public void m1()
         {
             Console.WriteLine("Hello m1");
