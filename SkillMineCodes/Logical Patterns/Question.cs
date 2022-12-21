@@ -1,13 +1,4 @@
-﻿using SkillMineCodes.AccessModifiers;
-using SkillMineCodes.HW.Dec14;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
+﻿using System;
 
 namespace SkillMineCodes.Logical_Patterns
 {
@@ -826,43 +817,41 @@ from ‘fromNum’ till ‘toNum’.*/
     e.g. if given array is { 12 ,4, 2, 10 , 5 , 1 }
         and given number is 16 then sum of subarray { 4,2,10}
         and {10, 5,1} is equal to given number.*/
-    /*public class Question36
+    public class Question36
     {
         static void Main()
         {
-            int[] arr = { 12, 4, 2, 10, 5, 1 };
-            int sum = 16, n = arr.Length;
+            int[] inputArray = { 12, 4, 2, 10, 5, 1 };
+            int inputNumber = 16;
 
-            for (int i = 0; i < n; i++)
+            int sum = inputArray[0];
+            int start = 0;
+
+            for (int i = 1; i < inputArray.Length; i++)
             {
-                int currentSum = arr[i];
+                sum = sum + inputArray[i];
 
-                if (currentSum == sum)
+                while (sum > inputNumber && start <= i - 1)
                 {
+                    sum = sum - inputArray[start];
 
-                    Console.WriteLine("Sum found at " + arr[i]);
+                    start++;
                 }
-                else
+
+                if (sum == inputNumber)
                 {
-                    // Try all subarrays starting with 'i'
-                    int ci = i;
-                    for (int j = i + 1; j < n; j++)
+                    Console.WriteLine("Continuous sub array of whose sum is " + inputNumber);
+
+                    for (int j = start; j <= i; j++)
                     {
-                        currentSum += arr[j];
-                        ci++;
-                        if (currentSum == sum)
-                        {
-                           for(int x=i; x<ci; x++)
-                            {
-                                Console.Write(arr[x]+" ");
-                            }
-                            Console.WriteLine();
-                        }
+                        Console.WriteLine(inputArray[j] + " ");
                     }
+                    Console.WriteLine();
                 }
             }
+
         }
-    }*/
+    }
 
 
 
