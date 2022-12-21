@@ -49,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SkillMineCodes.Logical_Patterns.Question36</StartupObject>
+    <StartupObject>SkillMineCodes.PP</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -63,6 +63,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayQuestions\ArrayMethod.cs" />
+    <Compile Include="Bank.cs" />
+    <Compile Include="CourceAndStudent.cs" />
     <Compile Include="Exceptions\Demo.cs" />
     <Compile Include="Exceptions\MarksException.cs" />
     <Compile Include="Exceptions\NameException.cs" />
