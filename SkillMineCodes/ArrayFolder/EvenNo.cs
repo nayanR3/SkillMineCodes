@@ -1,9 +1,21 @@
 ﻿using System;
 
-namespace SkillMineCodes.ArrayQuestions
+namespace SkillMineCodes.ArrayFolder
 {
-    internal class EvenNo
+    public class EvenNo
     {
+        static void Main(string[] args)
+        {
+            int n = int.Parse(System.Console.ReadLine());
+
+            int[] a = new int[n];
+            for (int i = 0; i < n; i++)
+            {
+                a[i] = int.Parse(Console.ReadLine());
+            }
+            EvenFind (a);
+        }
+
         public void EvenFind(int[] a)
         {
             for (int i = 0; i < a.Length; i++)
@@ -14,21 +26,5 @@ namespace SkillMineCodes.ArrayQuestions
                 }
             }
         }
-
-
-        static void Main(string[] args)
-        {
-            int n = int.Parse(System.Console.ReadLine());
-
-            int[] a = new int[n];
-            for (int i = 0; i < n; i++)
-            {
-                a[i] = int.Parse(Console.ReadLine());
-            }
-
-            EvenNo o = new EvenNo();
-            o.EvenFind(a);
-        }
-
     }
 }
