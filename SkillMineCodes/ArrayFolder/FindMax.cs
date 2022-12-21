@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SkillMineCodes.ArrayQuestions
+namespace SkillMineCodes.ArrayFolder
 {
     internal class FindMax
     {
-        public void Max(int[] a)
+        public static void Max(int[] a)
         {
             int m = a[0];
             for (int i = 1; i < a.Length; i++)
@@ -18,22 +14,18 @@ namespace SkillMineCodes.ArrayQuestions
                     m = a[i];
                 }
             }
-            Console.WriteLine(m);
+            Console.WriteLine (m);
         }
-
 
         public static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-
             int[] a = new int[n];
             for (int i = 0; i < n; i++)
             {
                 a[i] = int.Parse(Console.ReadLine());
             }
-
-            FindMax f = new FindMax();
-            f.Max(a);
+            Max (a);
         }
     }
 }
