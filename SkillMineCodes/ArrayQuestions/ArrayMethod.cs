@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.ObjectModel;
 
 namespace SkillMineCodes.ArrayQuestions
 {
@@ -13,6 +12,22 @@ namespace SkillMineCodes.ArrayQuestions
                 Console.Write(i + " ");
             }
             Console.WriteLine();
+
+            System.Console.WriteLine("\nSorted Array");
+            Array.Sort (arr);
+            System.Console.WriteLine(string.Join(" ", arr));
+
+            System.Console.WriteLine(value: "\nReverse Array");
+            Array.Reverse (arr);
+            System.Console.WriteLine(string.Join(" ", arr));
+
+            System.Console.WriteLine("\nFind first grater value than 50");
+            int r1 = Array.Find(arr, ele => ele > 50);
+            System.Console.WriteLine (r1);
+
+            System.Console.WriteLine("\nFind all grater value than 10");
+            int[] r2 = Array.FindAll(arr, ele => ele > 10);
+            System.Console.WriteLine(string.Join(" ", r2));
         }
     }
 }
