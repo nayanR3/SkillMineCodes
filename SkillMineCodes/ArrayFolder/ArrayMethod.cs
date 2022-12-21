@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SkillMineCodes.ArrayQuestions
+namespace SkillMineCodes.ArrayFolder
 {
     public class ArrayMethod
     {
