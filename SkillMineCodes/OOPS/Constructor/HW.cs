@@ -6,14 +6,17 @@ namespace SkillMineCodes.AccessModifiers
 	student has different different properties, declare that properties with different different modifier
     and their is some methods with different access modifiers
     Access this student data in same class, in another class and inside the sub-class.*/
-
     class Student
     {
-       internal string name="Nayan";
+        internal string name = "Nayan";
+
         int rollno;
-       public string address;
-       protected int phone;
+
+        public string address;
+
+        protected int phone;
     }
+
     class StudInfo : Student
     {
         static void Main(string[] args)
@@ -21,22 +24,21 @@ namespace SkillMineCodes.AccessModifiers
             StudInfo so = new StudInfo();
             so.address = "Dapoli";
             so.phone = 1111111;
-            
-            Console.WriteLine(so.name+" "+so.address+" "+so.phone);
+
+            Console.WriteLine(so.name + " " + so.address + " " + so.phone);
         }
     }
 
-
-
-
     /*Q2.Create account class which accNo, accType, Balance, CustomerName
     Write property for account and access it*/
-
     class Account
     {
         int accNo;
+
         string accType;
+
         double balance;
+
         string customerName;
 
         public int AccNo
@@ -98,27 +100,36 @@ namespace SkillMineCodes.AccessModifiers
             o.Balance = 1000000.00;
             o.CustomerName = "ABC";
 
-            Console.WriteLine(o.AccNo + " "+ o.AccType+" "+o.Balance+" "+o.CustomerName);
+            Console
+                .WriteLine(o.AccNo +
+                " " +
+                o.AccType +
+                " " +
+                o.Balance +
+                " " +
+                o.CustomerName);
         }
     }
 
-
-
-
-    
     /*Q3.WAC to create student class
     student has id, name, 3 subjects marks
     access this student details, calculate percentage of subjects 
 	& display all the details of student with percentage*/
-
     class Student1
     {
         int id;
+
         string name;
-        int phy, chem, bio;
+
+        int
+
+                phy,
+                chem,
+                bio;
 
         // Constructor
-        public Student1(int id, string name, int phy, int chem, int bio){
+        public Student1(int id, string name, int phy, int chem, int bio)
+        {
             this.id = id;
             this.name = name;
             this.phy = phy;
@@ -140,9 +151,8 @@ namespace SkillMineCodes.AccessModifiers
         {
             int total = phy + chem + bio;
             double per = (total * 100) / 300.0;
-                return per;
+            return per;
         }
-
     }
 
     class Student1Info
@@ -150,9 +160,9 @@ namespace SkillMineCodes.AccessModifiers
         static void Main(string[] args)
         {
             Student1 s = new Student1(1, "Nayan", 45, 50, 55);
-            Console.WriteLine(s.getName());  
-            Console.WriteLine(s.getId());   
-            Console.WriteLine(s.getPercentage()); 
+            Console.WriteLine(s.getName());
+            Console.WriteLine(s.getId());
+            Console.WriteLine(s.getPercentage());
         }
     }
 }
