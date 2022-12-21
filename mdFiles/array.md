@@ -12,11 +12,11 @@
 | **`10`** | [**Replace element by 0 if it's divisible by 3**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/EleReplaceByZero.cs) |
 | **`11`** | [**Prime numbers of array**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/PrimeNumbers.cs) |
 | **`12`** | [**`HomeWork-1`**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/HW1.cs) |
-| **`13`** | [****](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/) |
-| **`14`** | [****](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/) |
-| **`15`** | [****](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/) |
-| **`16`** | [****](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/) |
-| **`17`** | [****](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/) |
-| **`18`** | [****](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/) |
+| **`13`** | [**Frequency of given element**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/EleFrequency.cs) |
+| **`14`** | [**Separate even odd elements from array**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/SeparateEvenOdd.cs) |
+| **`15`** | [**Toggle character**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/Toggle.cs) |
+| **`16`** | [**`HomeWork-2`**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/HW2.cs) |
+| **`17`** | [**sort character type of array**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/CharArrSort.cs) |
+| **`18`** | [**merge 2 array into single array but array doesn't content duplicate elements**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/MergeTwoArray.cs) |
 | **`19`** | [****](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/) |
 | **`20`** | [****](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/) |
