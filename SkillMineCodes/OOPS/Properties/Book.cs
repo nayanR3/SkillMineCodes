@@ -1,23 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SkillMineCodes.OOPS
+namespace SkillMineCodes.OOPS.Properties
 {
     /*Create class Book with id, name, author & price(use properties, do not use constructor)*/
     public class Book
     {
         private int id;
+
         private string name;
+
         private string author;
+
         private int price;
 
-
         public int Id { get; set; }
+
         public string Name { get; set; }
+
         public string Author { get; set; }
+
         public int Price { get; set; }
 
         public override string ToString()
@@ -26,8 +27,7 @@ namespace SkillMineCodes.OOPS
         }
     }
 
-
-    /*public class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -38,5 +38,6 @@ namespace SkillMineCodes.OOPS
             b.Price = 9999;
             Console.WriteLine(b);
         }
-    }*/
+    }
+
 }
