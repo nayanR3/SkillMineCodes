@@ -1,7 +1,6 @@
-# SkillMineCodes
 # List of Topic
 
-## 01 . [`OOP's`](https://github.com/nayanR3/POTD/blob/master/md%20files/01.%20SEP-2022.md)
+## 01 . [`OOP's`](https://github.com/nayanR3/SkillMineCodes/tree/master/SkillMineCodes/OOPS)
 
 ## 02 . [`Array`](https://github.com/nayanR3/POTD/blob/master/md%20files/02.%20OCT-2022.md)
 
