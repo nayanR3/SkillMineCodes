@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections;
 
-
 namespace SkillMineCodes.Assignments
 {
-
     /*Q1. WAP to search for a given number in an array and 
            accordingly print the index if exists */
     class ArrayQ1
@@ -28,7 +26,7 @@ namespace SkillMineCodes.Assignments
             int x = int.Parse(Console.ReadLine());
 
             ArrayQ1 p = new ArrayQ1();
-            p.fun(arr, x);
+            p.fun (arr, x);
         }
 
         public void fun(int[] arr, int x)
@@ -48,18 +46,16 @@ namespace SkillMineCodes.Assignments
 
             if (f == true)
             {
-                System.Console.WriteLine("element " + x + " found at " + val + " index");
+                System
+                    .Console
+                    .WriteLine("element " + x + " found at " + val + " index");
             }
             else
             {
                 System.Console.WriteLine("Not found");
             }
         }
-
-
     }
-
-
 
     /*Q2. Write two methods that return the average of an array with following headers.
             i. public static int average(int[] array)
@@ -73,6 +69,7 @@ namespace SkillMineCodes.Assignments
             int n = int.Parse(Console.ReadLine());
 
             Console.WriteLine();
+
             // int array
             int[] iArr = new int[n];
             System.Console.WriteLine("Enter int Array element :");
@@ -85,6 +82,7 @@ namespace SkillMineCodes.Assignments
             System.Console.WriteLine(string.Join(" ", iArr));
 
             Console.WriteLine();
+
             // double array
             double[] dArr = new double[n];
             System.Console.WriteLine("Enter double Array element :");
@@ -125,10 +123,7 @@ namespace SkillMineCodes.Assignments
             }
             return s / n;
         }
-
     }
-
-
 
     /*Q3. WAP to print all negative elements in an array and also
           count total number of negative elements in an array. */
@@ -139,6 +134,7 @@ namespace SkillMineCodes.Assignments
             Console.WriteLine("Enter array size");
             int n = int.Parse(Console.ReadLine());
             Console.WriteLine();
+
             // int array
             int[] arr = new int[n];
             System.Console.WriteLine("Enter int Array element :");
@@ -151,7 +147,7 @@ namespace SkillMineCodes.Assignments
             System.Console.WriteLine(string.Join(" ", arr));
 
             ArrayQ3 p = new ArrayQ3();
-            p.fun(arr);
+            p.fun (arr);
         }
 
         public void fun(int[] arr)
@@ -171,10 +167,7 @@ namespace SkillMineCodes.Assignments
             Console.WriteLine();
             System.Console.WriteLine("Count of negative values " + c);
         }
-
     }
-
-
 
     /*Q4. WAP to put even and odd elements of array in two separate arrays. */
     class ArrayQ4
@@ -195,7 +188,7 @@ namespace SkillMineCodes.Assignments
             System.Console.WriteLine(string.Join(" ", arr));
 
             ArrayQ4 p = new ArrayQ4();
-            p.fun(arr);
+            p.fun (arr);
         }
 
         public void fun(int[] arr)
@@ -228,10 +221,7 @@ namespace SkillMineCodes.Assignments
             }
             Console.WriteLine();
         }
-
     }
-
-
 
     /*Q5. WAP to find the maximum and minimum value in an array.*/
     class ArrayQ5
@@ -252,7 +242,7 @@ namespace SkillMineCodes.Assignments
             System.Console.WriteLine(string.Join(" ", arr));
 
             ArrayQ5 p = new ArrayQ5();
-            p.fun(arr);
+            p.fun (arr);
         }
 
         public void fun(int[] arr)
@@ -270,10 +260,7 @@ namespace SkillMineCodes.Assignments
             System.Console.WriteLine("Minimum value in array is : " + min);
             System.Console.WriteLine("Maximum value in array is : " + max);
         }
-
     }
-
-
 
     /*Q6. WAP to find and count total number of duplicate elements in an array.*/
     class ArrayQ6
@@ -294,7 +281,7 @@ namespace SkillMineCodes.Assignments
             System.Console.WriteLine(string.Join(" ", arr));
 
             ArrayQ6 p = new ArrayQ6();
-            p.fun(arr);
+            p.fun (arr);
         }
 
         public void fun(int[] arr)
@@ -323,10 +310,7 @@ namespace SkillMineCodes.Assignments
             }
             System.Console.WriteLine("Count of duplicate elements " + c);
         }
-
     }
-
-
 
     /*Q7. WAP to print all unique elements in the array.*/
     class ArrayQ7
@@ -347,7 +331,7 @@ namespace SkillMineCodes.Assignments
             System.Console.WriteLine(string.Join(" ", arr));
 
             ArrayQ7 p = new ArrayQ7();
-            p.fun(arr);
+            p.fun (arr);
         }
 
         public void fun(int[] arr)
@@ -379,10 +363,7 @@ namespace SkillMineCodes.Assignments
             System.Console.WriteLine(arr[arr.Length - 1]);
             Console.WriteLine();
         }
-
     }
-
-
 
     /*Q8. WAP to find the second smallest element in an array.*/
     class ArrayQ8
@@ -403,7 +384,7 @@ namespace SkillMineCodes.Assignments
             System.Console.WriteLine(string.Join(" ", arr));
 
             ArrayQ8 p = new ArrayQ8();
-            p.fun(arr);
+            p.fun (arr);
         }
 
         public void fun(int[] arr)
@@ -421,12 +402,11 @@ namespace SkillMineCodes.Assignments
                 }
             }
             System.Console.WriteLine();
-            System.Console.WriteLine("2nd Smallest element in array is " + arr[1]);
+            System
+                .Console
+                .WriteLine("2nd Smallest element in array is " + arr[1]);
         }
-
     }
-
-
 
     /*Q9. WAP to count frequency of each element in an array.*/
     class ArrayQ9
@@ -447,7 +427,7 @@ namespace SkillMineCodes.Assignments
             System.Console.WriteLine(string.Join(" ", arr));
 
             ArrayQ9 p = new ArrayQ9();
-            p.fun(arr);
+            p.fun (arr);
         }
 
         public void fun(int[] arr)
@@ -487,10 +467,7 @@ namespace SkillMineCodes.Assignments
                 .Console
                 .WriteLine("Count of " + arr[arr.Length - 1] + " is " + c);
         }
-
     }
-
-
 
     /*Q10.WAP to merge 2 arrays to 3rd array. 3rd array should not
 have elements of same value.*/
@@ -516,7 +493,7 @@ have elements of same value.*/
                 a2[i] = int.Parse(Console.ReadLine());
             }
             ArrayQ10 p = new ArrayQ10();
-            p.fun(a1, a2);
+            p.fun (a1, a2);
         }
 
         public void fun(int[] a1, int[] a2)
@@ -555,10 +532,10 @@ have elements of same value.*/
             int[] temp = new int[A.Length];
             int c = 0;
             for (int i = 0; i < n - 1; i++)
-                if (A[i] != A[i + 1])
-                {
-                    temp[c++] = A[i];
-                }
+            if (A[i] != A[i + 1])
+            {
+                temp[c++] = A[i];
+            }
             temp[c++] = A[n - 1];
 
             // Modify original array
@@ -575,10 +552,7 @@ have elements of same value.*/
             }
             Console.WriteLine();
         }
-
     }
-
-
 
     /*Q11.WAP sort array elements in ascending order.*/
     class ArrayQ11
@@ -599,7 +573,7 @@ have elements of same value.*/
             System.Console.WriteLine(string.Join(" ", arr));
 
             ArrayQ11 p = new ArrayQ11();
-            p.fun(arr);
+            p.fun (arr);
         }
 
         public void fun(int[] arr)
@@ -621,9 +595,6 @@ have elements of same value.*/
             System.Console.WriteLine(string.Join(" ", arr));
         }
     }
-
-
-
 
     /* Q12. WAP to reverse the array itself, 
             don’t print array in reverse
@@ -649,7 +620,7 @@ have elements of same value.*/
             System.Console.WriteLine(string.Join(" ", arr));
 
             ArrayQ12 p = new ArrayQ12();
-            p.fun(arr);
+            p.fun (arr);
         }
 
         public void fun(int[] a)
@@ -666,8 +637,6 @@ have elements of same value.*/
             System.Console.WriteLine(string.Join(" ", a));
         }
     }
-
-
 
     /*Q13.Write a program to test the equality of two arrays.
           Means e.g arr1[] = [12, 22, 32, 42, 52,62] and 
@@ -695,7 +664,7 @@ have elements of same value.*/
                 a2[i] = int.Parse(Console.ReadLine());
             }
             ArrayQ13 p = new ArrayQ13();
-            p.fun(a1, a2);
+            p.fun (a1, a2);
         }
 
         public void fun(int[] a1, int[] a2)
@@ -756,11 +725,9 @@ have elements of same value.*/
         }
     }
 
-
-
     /*Q14.WAP to replace all negative value with its immediate left elements square.
     Means arr[] = [12, 3, -19, 29, 5, -61, 44, 7, -9] 
-    Output array will be [12, 3, 9, 29, 5, 25, 44, 7, 49].*/ 
+    Output array will be [12, 3, 9, 29, 5, 25, 44, 7, 49].*/
     class ArrayQ14
     {
         static void Main(string[] args)
@@ -777,7 +744,7 @@ have elements of same value.*/
             }
 
             ArrayQ14 p = new ArrayQ14();
-            p.fun(arr);
+            p.fun (arr);
         }
 
         public void fun(int[] arr)
@@ -797,9 +764,6 @@ have elements of same value.*/
             System.Console.WriteLine(string.Join(" ", arr));
         }
     }
-
-    
-
 
     /*Q15.WAP to arrange the elements of an given array of integers 
         where all negative integers appear before all the positive integers.*/
@@ -822,7 +786,7 @@ have elements of same value.*/
             System.Console.WriteLine(string.Join(" ", arr));
 
             ArrayQ15 p = new ArrayQ15();
-            p.fun(arr);
+            p.fun (arr);
         }
 
         public void fun(int[] arr)
