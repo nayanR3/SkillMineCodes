@@ -34,7 +34,7 @@ namespace SkillMineCodes.OOPS.Constructor
                     new Student2(2, "Adi", "Ratnagiri")
                 };
 
-            foreach (var d in s)
+            foreach (Student2 d in s)
             {
                 Console.WriteLine (d);
             }
