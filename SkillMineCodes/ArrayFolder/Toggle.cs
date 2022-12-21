@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SkillMineProject.ArrayQuestions
+namespace ArrayFolder
 {
     internal class Toggle
     {
@@ -12,12 +12,10 @@ namespace SkillMineProject.ArrayQuestions
             {
                 ch[i] = Convert.ToChar(Console.ReadLine());
             }
-
-            Toggle t = new Toggle();
-            System.Console.WriteLine(t.ToggleCase(ch));
+            System.Console.WriteLine(ToggleCase(ch));
         }
 
-        public char[] ToggleCase(char[] ch)
+        public static char[] ToggleCase(char[] ch)
         {
             for (int i = 0; i < ch.Length; i++)
             {
@@ -28,6 +26,5 @@ namespace SkillMineProject.ArrayQuestions
             }
             return ch;
         }
-
     }
 }
