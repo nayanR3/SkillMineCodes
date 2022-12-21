@@ -6,13 +6,9 @@ namespace SkillMineCodes.OOPS.Constructor
     public class Student
     {
         private string name;
-
         private int age;
-
         private string address;
-
         private int
-
                 phy,
                 chem,
                 maths,
