@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SkillMineCodes.Array
+namespace SkillMineCodes.ArrayQuestions
 {
 
     /*Q1.sum of even number of array*/

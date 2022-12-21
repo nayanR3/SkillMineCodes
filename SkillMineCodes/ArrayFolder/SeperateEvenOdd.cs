@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace SkillMineCodes.Array
+namespace SkillMineCodes.ArrayQuestions
 {
     internal class SeperateEvenOdd
     {

@@ -1,14 +1,6 @@
-﻿using SkillMineCodes.Nested_Loop;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Globalization;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
-namespace SkillMineCodes.Array
+namespace SkillMineCodes.ArrayQuestions
 {
     /*Q1.WAP to sort character type of array. */
     class SortCharArr

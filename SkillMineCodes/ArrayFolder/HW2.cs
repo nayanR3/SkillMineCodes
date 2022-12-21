@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace SkillMineCodes.Array
+namespace SkillMineCodes.ArrayQuestions
 {
 
     /*Q1.Display alternate no element*/
