@@ -27,8 +27,10 @@ namespace SkillMineCodes.OOPS.Constructor{
         {
             Student1 a = new Student1(1,"Nayan","Dapoli");
             Student1 b = new Student1(2,"Adi","Ratnagiri");
+            Student1 c = new Student1(3,"Nomya","Kolhapur");
             System.Console.WriteLine(a);
             System.Console.WriteLine(b);
+            System.Console.WriteLine(c);
         }
     }
 }
