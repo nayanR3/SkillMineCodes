@@ -10,8 +10,6 @@ namespace SkillMineCodes.OOPS.Inheritance
     {
         internal string name = "Nayan";
 
-        int rollno;
-
         public string address;
 
         protected int phone;
