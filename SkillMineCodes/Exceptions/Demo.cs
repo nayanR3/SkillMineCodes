@@ -1,28 +1,25 @@
-﻿/*using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
 namespace SkillMineCodes.Exceptions
 {
     // Custom Exception class
-    public class MarksException : Exception
+    public class MarksException1 : Exception
     {
-        public MarksException(string message) : base(message)
+        public MarksException1(string message) :
+            base(message)
         {
-
         }
     }
 
-    public class Stud
+    public class Student
     {
         private int marks;
+
         public void AcceptMarks(int marks)
         {
             if (marks > 100)
             {
-                throw new MarksException("Marks can not be greater than 100");
+                throw new MarksException1("Marks can not be greater than 100");
             }
             else
             {
@@ -30,12 +27,12 @@ namespace SkillMineCodes.Exceptions
             }
         }
     }
-    
+
     public class Demo
     {
         static void Main(string[] args)
         {
-            Stud s = new Stud();
+            Student s = new Student();
             try
             {
                 s.AcceptMarks(101);
@@ -44,10 +41,6 @@ namespace SkillMineCodes.Exceptions
             {
                 Console.WriteLine(ex.Message);
             }
-
         }
     }
-
-
 }
-*/
