@@ -18,3 +18,4 @@
 | **`16`** | [**`HomeWork-2`**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/HW2.cs) |
 | **`17`** | [**sort character type of array**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/CharArrSort.cs) |
 | **`18`** | [**merge 2 array into single array but array doesn't content duplicate elements**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/MergeTwoArray.cs) |
+| **`19`** | [**`Assignment Solution`**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/ArrayFolder/Assignment.cs) |
