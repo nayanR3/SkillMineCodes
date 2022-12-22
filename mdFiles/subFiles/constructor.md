@@ -7,3 +7,4 @@
 | **`03`** | [**Create a Student class & calculate total & percentage**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/OOPS/Constructor/Student.cs) |
 | **`04`** | [**WAC to create student class student has id, name, 3 subjects marks access this student details, calculate percentage of subjects & display all the details of student with percentage**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/OOPS/Constructor/Stud.cs) |
 | **`04`** | [**`HW`**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/OOPS/Constructor/HW.cs) |
+| **`04`** | [**Static variable**](https://github.com/nayanR3/SkillMineCodes/blob/master/SkillMineCodes/OOPS/Constructor/StaticVar.cs) |
