@@ -1,0 +1,2 @@
+C:\Users\nayan\Documents\SkillMineCodes\SkillMineCodes\obj\Release\SkillMineCodes.csproj.AssemblyReference.cache
+C:\Users\nayan\Documents\SkillMineCodes\SkillMineCodes\obj\Release\SkillMineCodes.csproj.CoreCompileInputs.cache
