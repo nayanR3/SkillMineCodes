@@ -815,36 +815,36 @@ from ‘fromNum’ till ‘toNum’.*/
 
     /*36. Find a continuous sub array whose sum is equal to given number.
     e.g. if given array is { 12 ,4, 2, 10 , 5 , 1 }
-        and given number is 16 then sum of subarray { 4,2,10}
+        and given number is 16 then sum of sub array { 4,2,10}
         and {10, 5,1} is equal to given number.*/
     public class Question36
     {
         static void Main()
         {
-            int[] inputArray = { 12, 4, 2, 10, 5, 1 };
-            int inputNumber = 16;
+            int[] arr = { 12, 4, 2, 10, 5, 1 };
+            int n = 16;
 
-            int sum = inputArray[0];
+            int sum = arr[0];
             int start = 0;
 
-            for (int i = 1; i < inputArray.Length; i++)
+            for (int i = 1; i < arr.Length; i++)
             {
-                sum = sum + inputArray[i];
+                sum = sum + arr[i];
 
-                while (sum > inputNumber && start <= i - 1)
+                while (sum > n && start <= i - 1)
                 {
-                    sum = sum - inputArray[start];
+                    sum = sum - arr[start];
 
                     start++;
                 }
 
-                if (sum == inputNumber)
+                if (sum == n)
                 {
-                    Console.WriteLine("Continuous sub array of whose sum is " + inputNumber);
+                    Console.WriteLine("Continuous sub array of whose sum is " + n);
 
                     for (int j = start; j <= i; j++)
                     {
-                        Console.WriteLine(inputArray[j] + " ");
+                        Console.WriteLine(arr[j] + " ");
                     }
                     Console.WriteLine();
                 }
@@ -948,7 +948,7 @@ and array 2 is { 9 ,10, 11, 12}
     //e.g. if array is { 1,2,3,4,5,6,} result should be { 4,5,6, 1,2,3}
     //if array contains odd elements e.g. { 1,2,3,4,5,6,7}
     //result should be {5,6,7,4,3,2,1}
-    //42.Display all elements of two dimenstional array with dimensions 3X4.
+    //42.Display all elements of two dimensional array with dimensions 3X4.
     //43. If a number from a two dimensional array is given , its position in the array should be shown.
     //e.g. two dimensional array is { {1,2,3,4} , { 5,6,7,8} } if 7 is entered it will show its position as row
     //2 column 3
