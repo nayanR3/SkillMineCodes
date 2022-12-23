@@ -11,3 +11,5 @@
 ## `05` . [**Exception Handling**](https://github.com/nayanR3/SkillMineCodes/blob/master/mdFiles/excep.md)
 
 ## `06` . [**Collections**](https://github.com/nayanR3/SkillMineCodes/blob/master/mdFiles/collection.md)
+
+## `07` . [**Delegate & Event**](https://github.com/nayanR3/SkillMineCodes/blob/master/mdFiles/delegateEvent.md)
