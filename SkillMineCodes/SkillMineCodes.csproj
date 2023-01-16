@@ -49,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SkillMineCodes.PP</StartupObject>
+    <StartupObject>SkillMineCodes.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -62,53 +62,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayQuestions\ArrayMethod.cs" />
-    <Compile Include="Bank.cs" />
-    <Compile Include="CourceAndStudent.cs" />
-    <Compile Include="Exceptions\Demo.cs" />
-    <Compile Include="Exceptions\MarksException.cs" />
-    <Compile Include="Exceptions\NameException.cs" />
-    <Compile Include="Exceptions\Stud.cs" />
-    <Compile Include="Exceptions\Student.cs" />
-    <Compile Include="Logical Patterns\Question.cs" />
-    <Compile Include="Questions\AnagramString.cs" />
-    <Compile Include="Questions\Book.cs" />
-    <Compile Include="Questions\Dec14\CharacterCount.cs" />
-    <Compile Include="Questions\Dec14\CharToggle.cs" />
-    <Compile Include="Questions\Dec14\Palindrome.cs" />
-    <Compile Include="Questions\Dec15\GenericsHashTableDemo.cs" />
-    <Compile Include="Questions\Dec15\GenericsListDemo.cs" />
-    <Compile Include="Questions\Dec15\GenericsQueueDemo.cs" />
-    <Compile Include="Questions\Dec15\GenericsSortedListDemo.cs" />
-    <Compile Include="Questions\Dec15\GenericsStackDemo.cs" />
-    <Compile Include="OOPS\AbstractDemo.cs" />
-    <Compile Include="OOPS\ArrayCostProp.cs" />
-    <Compile Include="Questions\Fibonacchi.cs" />
-    <Compile Include="Questions\Grossery.cs" />
-    <Compile Include="Questions\MaxInRowCol.cs" />
-    <Compile Include="Questions\MoveZeroBegining.cs" />
-    <Compile Include="Questions\Pairs.cs" />
-    <Compile Include="Questions\Product.cs" />
-    <Compile Include="OOPS\Employee.cs" />
-    <Compile Include="OOPS\Book.cs" />
-    <Compile Include="OOPS\HW.cs" />
-    <Compile Include="ArrayQuestions\EvenNo.cs" />
-    <Compile Include="ArrayQuestions\FindMax.cs" />
-    <Compile Include="ArrayQuestions\HW.cs" />
-    <Compile Include="ArrayQuestions\HW2.cs" />
-    <Compile Include="ArrayQuestions\HW3.cs" />
-    <Compile Include="ArrayQuestions\Toggle.cs" />
-    <Compile Include="Assignments\ArrayAssignment.cs" />
-    <Compile Include="Conditional\HW.cs" />
-    <Compile Include="Do While\HW.cs" />
-    <Compile Include="Loop\HW.cs" />
-    <Compile Include="Nested Loop\HW.cs" />
-    <Compile Include="OOPS\RefOutParam.cs" />
-    <Compile Include="OOPS\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ArrayQuestions\SeperateEvenOdd.cs" />
-    <Compile Include="WrittenTest\Dec10\Questions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -124,9 +79,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="WrittenTest\Dec10\Questions.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
