@@ -6,3 +6,11 @@ C:\Users\nayan\Documents\SkillMineCodes\SkillMineCodes\obj\Debug\SkillMineCodes.
 C:\Users\nayan\Documents\SkillMineCodes\SkillMineCodes\obj\Debug\SkillMineCodes.exe
 C:\Users\nayan\Documents\SkillMineCodes\SkillMineCodes\obj\Debug\SkillMineCodes.pdb
 C:\Users\nayan\Documents\SkillMineCodes\SkillMineCodes\obj\Debug\SkillMineCodes.csproj.SuggestedBindingRedirects.cache
+C:\Users\nayan\OneDrive\Documents\SkillMineCodes\SkillMineCodes\obj\Debug\SkillMineCodes.csproj.AssemblyReference.cache
+C:\Users\nayan\OneDrive\Documents\SkillMineCodes\SkillMineCodes\obj\Debug\SkillMineCodes.csproj.SuggestedBindingRedirects.cache
+C:\Users\nayan\OneDrive\Documents\SkillMineCodes\SkillMineCodes\obj\Debug\SkillMineCodes.csproj.CoreCompileInputs.cache
+C:\Users\nayan\OneDrive\Documents\SkillMineCodes\SkillMineCodes\obj\Debug\SkillMineCodes.exe
+C:\Users\nayan\OneDrive\Documents\SkillMineCodes\SkillMineCodes\obj\Debug\SkillMineCodes.pdb
+C:\Users\nayan\OneDrive\Documents\SkillMineCodes\SkillMineCodes\bin\Debug\SkillMineCodes.exe.config
+C:\Users\nayan\OneDrive\Documents\SkillMineCodes\SkillMineCodes\bin\Debug\SkillMineCodes.exe
+C:\Users\nayan\OneDrive\Documents\SkillMineCodes\SkillMineCodes\bin\Debug\SkillMineCodes.pdb
