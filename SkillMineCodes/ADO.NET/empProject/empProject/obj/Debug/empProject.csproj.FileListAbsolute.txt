@@ -1,0 +1,11 @@
+C:\Users\nayan\source\repos\empProject\empProject\bin\Debug\empProject.exe.config
+C:\Users\nayan\source\repos\empProject\empProject\bin\Debug\empProject.exe
+C:\Users\nayan\source\repos\empProject\empProject\bin\Debug\empProject.pdb
+C:\Users\nayan\source\repos\empProject\empProject\obj\Debug\empProject.csproj.AssemblyReference.cache
+C:\Users\nayan\source\repos\empProject\empProject\obj\Debug\empProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\nayan\source\repos\empProject\empProject\obj\Debug\empProject.Form1.resources
+C:\Users\nayan\source\repos\empProject\empProject\obj\Debug\empProject.Properties.Resources.resources
+C:\Users\nayan\source\repos\empProject\empProject\obj\Debug\empProject.csproj.GenerateResource.cache
+C:\Users\nayan\source\repos\empProject\empProject\obj\Debug\empProject.csproj.CoreCompileInputs.cache
+C:\Users\nayan\source\repos\empProject\empProject\obj\Debug\empProject.exe
+C:\Users\nayan\source\repos\empProject\empProject\obj\Debug\empProject.pdb
