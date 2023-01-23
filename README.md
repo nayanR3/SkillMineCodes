@@ -14,4 +14,4 @@
 
 ## `07` . [**Delegate & Event**](https://github.com/nayanR3/SkillMineCodes/blob/master/mdFiles/delegateEvent.md)
 
-## `07` . [**ADO.NET**](https://github.com/nayanR3/SkillMineCodes/blob/master/mdFiles/AdoNet.md)
+## `08` . [**ADO.NET**](https://github.com/nayanR3/SkillMineCodes/tree/master/SkillMineCodes/ADO.NET)
