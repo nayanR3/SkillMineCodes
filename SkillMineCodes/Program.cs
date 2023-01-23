@@ -11,8 +11,16 @@ namespace SkillMineCodes
     {
         static void Main(string[] args)
         {
-            string s = "abcccc";
-            fnc(s);
+            // string s = "abcccc";
+            // fnc(s);
+
+
+            List<string> ItemList = new List<string>();
+            for (int i = 0; i < 5; i++) 
+            {
+                var ListInput = Console.ReadLine(); 
+                ItemList.Add(ListInput);
+            }
         }
 
         public static void fnc(string s)
@@ -44,5 +52,7 @@ namespace SkillMineCodes
 
             return freq[25];
         }
+    
+
     }
 }

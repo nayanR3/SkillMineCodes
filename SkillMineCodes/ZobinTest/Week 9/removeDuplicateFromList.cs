@@ -13,7 +13,7 @@ namespace SkillMineCodes.ZobinTest.Week_9
             var listOfInts = s.Select(Int32.Parse).ToList();
             // Console.WriteLine (listOfInts);
 
-            fnc = new(listOfInts);
+            fnc(listOfInts);
         }
 
         public static void fnc(List<int> listOfInts){
