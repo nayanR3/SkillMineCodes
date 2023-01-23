@@ -1,0 +1,41 @@
+        static void Main(string[] args)
+        {
+            string s = Console.ReadLine();
+            fnc(s);
+        }
+        public static void fnc(string s)
+        {
+            int i=0,j=s.Length-1;
+            bool f=true;
+
+            while(i<j){
+                if(s[i]!=s[j]){
+                    f=false;
+                    break;
+                }
+                i++;
+                j--;
+            }
+
+            if(f==true)
+            System.Console.WriteLine("Palindrome");
+            else
+            System.Console.WriteLine("Not Palindrome");
+        }
+
+        
+        // ----------------------------------------------------
+        static void Main(string[] args)
+        {
+            var s = Console.ReadLine().Split(' ');
+            var listOfInts = s.Select(Int32.Parse).ToList();
+
+            fnc (listOfInts);
+        }
+
+        public static void fnc(List<int> listOfInts){
+            List<int> result = listOfInts.Distinct().ToList();
+
+            foreach(var i in result)
+            System.Console.Write(i+" ");
+        }
