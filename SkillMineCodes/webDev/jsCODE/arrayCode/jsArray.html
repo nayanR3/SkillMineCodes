@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        #d1,
+        #d2 {
+            margin: 50px;
+            font-size: 30px;
+            font-weight: 900;
+            padding: 20px;
+            border: 1px solid;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="d1">
+        </div>
+
+        <div id="d2">
+        </div>
+    </div>
+
+
+    <script>
+        let names = ["nayan", "adi", "mark", "steve", "adam"];
+
+        names.push("abhi"); // add last
+        names.unshift("kane"); // add first
+        names.shift(); // remove first
+        names.sort();
+        names.reverse();
+
+        var data = "<ol>";
+        for (var i = 0; i < names.length; i++) {
+            data += "<li>" + names[i] + "</li>";
+        }
+        document.getElementById("d1").innerHTML = data;
+
+
+        let nums = [21, 1, 90, 75, 06, 33, 86];
+
+        nums.push("abhi"); // add last
+        nums.unshift("kane"); // add first
+        nums.shift(); // remove first
+        nums.sort();
+        nums.reverse();
+
+        var data = "<ol>";
+        for (var i = 0; i < nums.length; i++) {
+            data += "<li>" + nums[i] + "</li>";
+        }
+        document.getElementById("d2").innerHTML = data;
+
+    </script>
+</body>
+
+</html>

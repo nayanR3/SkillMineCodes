@@ -1,0 +1,43 @@
+.content {
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 1%;
+    height: 150px;
+    width: 98%;
+}
+
+#first {
+    height: 150px;
+    width: 25%;
+    background-color: rgb(190, 65, 65);
+    float: left;
+}
+
+#second {
+    height: 150px;
+    width: 25%;
+    background-color: rgb(65, 190, 82);
+    float: left;
+}
+
+#third {
+    height: 150px;
+    width: 25%;
+    background-color: rgb(65, 84, 190);
+    float: left;
+}
+
+
+
+.panel {
+    /* width: 80%; */
+    margin: 1%;
+    text-align: center;
+    padding-top: 200px;
+    /* border: 1px solid black; */
+}
+
+.panel img {
+    width: 100%;
+    display: block;
+}

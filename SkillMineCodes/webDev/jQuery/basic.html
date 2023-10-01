@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c1 {
+            margin: 30px;
+            justify-content: center;
+            border: 1px solid;
+        }
+
+        #b1,
+        #b2,
+        #b3,
+        p {
+            margin: 10px;
+        }
+
+        #box {
+            background: #98bf21;
+            height: 100px;
+            width: 100px;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="c1">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, molestias!
+            </p>
+            <div id="box"></div>
+
+            <div class="b">
+                <button id="b1">
+                    SHOW
+                </button>
+                <button id="b2">
+                    HIDE
+                </button>
+                <button id="b3">
+                    Animated
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
+        integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA=" crossorigin="anonymous"></script>
+
+    <script>
+        // call back function
+        $(document).ready(function () {
+
+            $("#b2").click(function () {
+                $("p").hide();
+            });
+
+            $("#b1").click(function () {
+                $("p").show();
+            });
+            
+            $("#b3").click(function () {
+                $("#box").animate({ left: '1190px' });
+            });
+
+            $("#btn4").click(function () {
+                $.ajax({
+                    url: "https://dummyjson.com/products/1", success: function (result) {
+                        // $("#d1").html(result);
+                        Display(result);
+                    }
+                });
+            });
+        });
+
+
+        function Display(value) { }
+    </script>
+
+</body>
+
+</html>

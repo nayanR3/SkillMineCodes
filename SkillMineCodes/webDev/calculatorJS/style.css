@@ -1,0 +1,31 @@
+.container {
+    margin: 50px 300px;
+    background-color: aliceblue;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.inp {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.btn .b {
+    margin: 10px;
+    padding: 10px;
+    font-weight: 600;
+}

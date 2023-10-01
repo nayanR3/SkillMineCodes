@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Calculator</h2>
+        <div class="inp">
+            Enter first number : <input type="text" id="n1">
+            <br>
+            Enter second number : <input type="text" id="n2">
+            <br>
+            Result : <input type="text" id="n3" disabled>
+            <br>
+
+            <i id="italicFont"></i>
+            <p id="para"></p>
+            <b id="boldFont"></b>
+        </div>
+        <div class="btn">
+            <input class="b" type="button" value="Add" onclick="Addition()">
+            <input class="b" type="button" value="Sub" onclick="Subtraction()">
+            <input class="b" type="button" value="Mul" onclick="Multiplication()">
+            <input class="b" type="button" value="Div" onclick="Division()">
+            <input class="b" type="button" value="Clr" onclick="Clear()">
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

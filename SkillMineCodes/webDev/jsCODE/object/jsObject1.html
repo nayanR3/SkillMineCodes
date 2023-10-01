@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // employee
+        var employee = {
+            empId: 1,
+            empName: "Marnus",
+            empSalary: 30000,
+            print: function () {
+                return this.empId + " " + this.empName + " " + this.empSalary;
+            },
+            bonusMoney: function () {
+                var b = this.empSalary * 0.10;
+                return b;
+            },
+            bonus: function () {
+                this.empSalary = this.empSalary + this.bonusMoney();
+                return this.empSalary;
+            }
+        };
+        console.log("employee obj");
+        console.log(employee.print())
+        console.log("Bonus 10% : " + employee.bonusMoney())
+        console.log(employee.bonus())
+        console.log(employee.print())
+        console.log();
+
+        // student
+        var student = {
+            rollNo: 1,
+            name: "Marnus",
+            address: "UK",
+            print: function () {
+                return this.rollNo + " " + this.name + " " + this.address;
+            }
+        };
+        console.log("student obj");
+        console.log(student.print())
+        console.log();
+
+
+        // book
+        var book = {
+            bookId: 1,
+            bookName: "Harry Potter",
+            price: 1000,
+            print: function () {
+                return this.bookId + " " + this.bookName + " " + this.price;
+            },
+            discountedValue: function () {
+                var b = this.price * 0.15;
+                return b;
+            },
+            discount: function () {
+                var a = this.price;
+                a = a - this.discountedValue();
+                return a;
+            }
+        };
+        console.log("book obj");
+        console.log(book.print());
+        console.log("Discount 15% : " + book.discountedValue())
+        console.log(book.discount())
+        console.log(book.print())
+        console.log();
+
+
+        // product
+        var product = {
+            productId: 1,
+            productName: "Laptop",
+            price: 50000,
+            print: function () {
+                return this.productId + " " + this.productName + " " + this.price;
+            },
+            discountedValue: function () {
+                var b = this.price * 0.20;
+                return b;
+            },
+            discount: function () {
+                this.price = this.price - this.discountedValue();
+                return this.price;
+            }
+        };
+        console.log("product obj");
+        console.log(product.print())
+        console.log("Discount 20% : " + product.discountedValue())
+        console.log(product.discount())
+        console.log(product.print())
+        console.log();
+    </script>
+</body>
+
+</html>

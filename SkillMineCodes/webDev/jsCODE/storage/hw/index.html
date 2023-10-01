@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        .con {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: 100px;
+        }
+
+        .d {
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+
+        .e {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <div class="d">
+            <form action="home.html" target="_blank">
+                Enter name :<input class="e" type="text" id="name" /><br>
+                Enter email :<input class="e" type="text" id="email" /><br>
+                Enter password :<input class="e" type="text" id="password" /><br><br>
+                <input type="submit" value="Save in Local" onclick="setData()" />
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script>
+
+        function setData() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+
+            if (localStorage) {
+                localStorage.clear();
+                localStorage.setItem("name", name);
+                localStorage.setItem("email", email);
+                localStorage.setItem("password", password);
+            }
+            else {
+                alert('storage not supported');
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        .btn1 {
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .container {
+            margin: 20px auto;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="btn1"><input type="button" value="Get All Data" onclick="getData()" />
+        </div>
+
+        <div id="d1">
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+
+    <script>
+
+        async function getData() {
+
+            let promise = new Promise(function (resolve, reject) {
+
+                let req = new XMLHttpRequest();
+                req.open('GET', 'https://dummyjson.com/posts/');
+                req.onload = function () {
+                    if (req.status == 200) {
+                        resolve(req.response);
+                    }
+                    else {
+                        reject("Server error");
+                    }
+                }
+                req.send();
+            });
+
+            let response = await promise;
+            Display(response);
+        }
+
+        function Display(value) {
+
+            var v = JSON.parse(value);
+            console.log(v);
+            var data2 = "<table class='table table-bordered'><tr><th>id</th><th>title</th><th>body</th><th>userId</th><th>tags</th><th>reactions</th></tr>";
+
+
+            data2 += "</table >";
+            document.getElementById("d1").innerHTML = data2;
+        }
+
+
+    </script>
+</body>
+
+</html>

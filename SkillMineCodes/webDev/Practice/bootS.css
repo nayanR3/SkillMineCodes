@@ -1,0 +1,25 @@
+@media only screen and (min-device-width:700px) and (max-device-width:1000px) {}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {}
+
+.banner {
+    height: 40vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(1, 9, 15, 0.7), rgba(1, 9, 15, 0.7)), url(imgs/b1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container .row {
+    margin: 2%;
+}
+
+.card-body h5 {
+    text-align: center;
+}
+
+.card-body a {
+    text-align: center;
+    display: inline-block;
+}
